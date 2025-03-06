@@ -1,19 +1,19 @@
 <template>
-  <div>
+  <div class="container mx-auto flex flex-col gap-8 justify-center items-center">
     <Icp />
     <Calculator />
   </div>
 </template>
 
 <script>
-import icp from "./components/icp.vue";
-import calculator from "./components/calculator.vue";
+import Icp from "./components/Icp.vue";
+import Calculator from "./components/Calculator.vue";
 
 export default {
   name: "App",
   components: {
-    icp,
-    calculator,
+    Icp,
+    Calculator,
   },
 };
 </script>
